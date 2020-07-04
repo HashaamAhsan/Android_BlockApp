@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.karwash.blockapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.provider.Settings.ACTION_USAGE_ACCESS_SETTINGS " />
+11-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:6:5-95
+11-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:6:22-92
+12    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+12-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:7:5-9:47
+12-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:8:9-62
+13
+14    <application
+14-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:11:5-32:19
+15        android:allowBackup="true"
+15-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:12:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\Hashaam\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:13:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:14:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:15:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:16:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:17:9-40
+24        <activity
+24-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:18:9-20:20
+25            android:name="com.karwash.blockapp.Blockmsg"
+25-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:18:19-43
+26            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+26-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:19:13-69
+27        </activity>
+28        <activity android:name="com.karwash.blockapp.Apps" />
+28-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:21:9-42
+28-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:21:19-39
+29        <activity android:name="com.karwash.blockapp.MainActivity" >
+29-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:22:9-28:20
+29-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:22:19-47
+30            <intent-filter>
+30-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:24:17-69
+31-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:26:17-77
+33-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:29:9-31:38
+38            android:name="com.karwash.blockapp.BlockService"
+38-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:30:13-41
+39            android:enabled="true" />
+39-->C:\Users\Hashaam\Downloads\AppLock-master\BlockApp\app\src\main\AndroidManifest.xml:31:13-35
+40    </application>
+41
+42</manifest>
