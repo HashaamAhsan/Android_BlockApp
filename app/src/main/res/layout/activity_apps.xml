@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Apps">
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginBottom="25dp"
+        android:text="Enter App Name"
+        android:layout_above="@+id/appname"/>
+    <EditText
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:id="@+id/block_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appname"
+        android:layout_marginTop="25dp"
+        android:text="BLOCK"/>
+    <TextView
+        android:id="@+id/errormsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/block_button"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+
+</RelativeLayout>
